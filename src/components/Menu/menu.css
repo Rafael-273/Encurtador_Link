@@ -1,9 +1,9 @@
 .menu {
     position: absolute;
-    top: 20px;
-    right: 10%;
+    top: 45px;
     font-weight: bold;
     display: flex;
+    align-items: center;
     animation: opac 2s;
 }
 
@@ -12,6 +12,12 @@
         opacity: 0;
     }to{
         opacity: 1;
+    }
+}
+
+@media (max-width: 1050px){
+    .menu {
+        top: 20px;
     }
 }
 

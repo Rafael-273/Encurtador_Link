@@ -36,8 +36,15 @@
 }
 
 .logo img {
-    width: 35%;
-    height: 100%;
+    max-width: 30%;
+    margin-bottom: -50px;
+}
+
+@media (max-width: 1050px){
+    .logo img {
+        max-width: 63%;
+        margin-bottom: -60px;
+    }
 }
 
 .area-input {
@@ -102,14 +109,14 @@
 }
 
 
-@media(max-width: 615px){
+@media(max-width: 700px){
     .logo {
         margin: 5px;
     }
 
     .logo img {
-        width: 350px;
-        margin-bottom: -5px;
+        max-width: 95%;
+        margin-bottom: -35px;
     }
 
     .logo h1 {
